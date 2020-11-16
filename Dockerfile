@@ -1,6 +1,6 @@
 FROM alpine:3.3
 
-ENV HUGO_VERSION 0.36.1
+ENV HUGO_VERSION 0.78.1
 ENV HUGO_BINARY hugo_${HUGO_VERSION}_Linux-64bit
 
 RUN apk update && apk add py-pygments && rm -rf /var/cache/apk/*
